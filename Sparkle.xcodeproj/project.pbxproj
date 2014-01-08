@@ -1372,6 +1372,7 @@
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1380,6 +1381,7 @@
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1388,6 +1390,7 @@
 			baseConfigurationReference = FA3AAF3A1050B273004B3130 /* ConfigUnitTestDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1395,6 +1398,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F20FD68D21005AE3F6 /* ConfigBinaryDeltaDebug.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1419,6 +1423,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1433,6 +1438,7 @@
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1441,6 +1447,7 @@
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1449,6 +1456,7 @@
 			baseConfigurationReference = FA3AAF3A1050B273004B3130 /* ConfigUnitTestDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1456,6 +1464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F20FD68D21005AE3F6 /* ConfigBinaryDeltaDebug.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1479,6 +1488,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = "Debug (10.8)";
@@ -1494,6 +1504,7 @@
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1502,6 +1513,7 @@
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1510,6 +1522,7 @@
 			baseConfigurationReference = FA3AAF3A1050B273004B3130 /* ConfigUnitTestDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1517,6 +1530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F20FD68D21005AE3F6 /* ConfigBinaryDeltaDebug.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1541,6 +1555,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1556,6 +1571,7 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
@@ -1564,6 +1580,7 @@
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
@@ -1572,6 +1589,7 @@
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
@@ -1580,6 +1598,7 @@
 			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
@@ -1602,6 +1621,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = "Release (10.8)";
@@ -1617,6 +1637,7 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1625,6 +1646,7 @@
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1633,6 +1655,7 @@
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1640,6 +1663,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1663,6 +1687,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = "Release (10.8) Symbols";
@@ -1678,6 +1703,7 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (AppStore)";
 		};
@@ -1686,6 +1712,7 @@
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (AppStore)";
 		};
@@ -1694,6 +1721,7 @@
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
 			};
 			name = "Release (AppStore)";
 		};
@@ -1701,6 +1729,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = "Release (AppStore)";
 		};
@@ -1724,6 +1753,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = "Release (AppStore)";
