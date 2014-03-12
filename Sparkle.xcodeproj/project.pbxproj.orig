@@ -908,7 +908,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Sparkle" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1372,7 +1372,6 @@
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1381,7 +1380,6 @@
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1390,7 +1388,6 @@
 			baseConfigurationReference = FA3AAF3A1050B273004B3130 /* ConfigUnitTestDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1398,7 +1395,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F20FD68D21005AE3F6 /* ConfigBinaryDeltaDebug.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1423,7 +1419,6 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8) (No Warnings)";
 		};
@@ -1435,10 +1430,9 @@
 		};
 		7D0E35F3162F1981006C5916 /* Debug (10.8) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
+			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1447,7 +1441,6 @@
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1456,7 +1449,6 @@
 			baseConfigurationReference = FA3AAF3A1050B273004B3130 /* ConfigUnitTestDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1464,7 +1456,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F20FD68D21005AE3F6 /* ConfigBinaryDeltaDebug.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1474,9 +1465,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+<<<<<<< HEAD
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+=======
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+>>>>>>> refs/heads/sparkle-upstream
 				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = finish_installation.pch;
 				INFOPLIST_FILE = "finish_installation-Info.plist";
@@ -1488,8 +1485,6 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
-				SDKROOT = macosx;
-				ZERO_LINK = NO;
 			};
 			name = "Debug (10.8)";
 		};
@@ -1504,7 +1499,6 @@
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1513,7 +1507,6 @@
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1522,7 +1515,6 @@
 			baseConfigurationReference = FA3AAF3A1050B273004B3130 /* ConfigUnitTestDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1530,7 +1522,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F20FD68D21005AE3F6 /* ConfigBinaryDeltaDebug.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
@@ -1540,8 +1531,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+<<<<<<< HEAD
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
+=======
+>>>>>>> refs/heads/sparkle-upstream
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1555,13 +1549,11 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
-				SDKROOT = macosx;
 			};
 			name = "Debug (AppStore)";
 		};
 		7D0E35FE162F199F006C5916 /* Release (10.8) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D06E8F20FD68D21005AE3F6 /* ConfigBinaryDeltaDebug.xcconfig */;
 			buildSettings = {
 			};
 			name = "Release (10.8)";
@@ -1571,7 +1563,6 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
@@ -1580,7 +1571,6 @@
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
@@ -1589,7 +1579,6 @@
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
@@ -1598,14 +1587,15 @@
 			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (10.8)";
 		};
 		7D0E3603162F199F006C5916 /* Release (10.8) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 615409A8103BA09100125AF1 /* ConfigTestAppReleaseGCSupport.xcconfig */;
+			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1621,14 +1611,17 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
-				SDKROOT = macosx;
 				ZERO_LINK = NO;
+=======
+				COMBINE_HIDPI_IMAGES = YES;
+>>>>>>> refs/heads/sparkle-upstream
 			};
 			name = "Release (10.8)";
 		};
 		7D0E3604162F19B8006C5916 /* Release (10.8) Symbols */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1637,7 +1630,6 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1646,7 +1638,6 @@
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1655,7 +1646,6 @@
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1663,7 +1653,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx;
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = "Release (10.8) Symbols";
 		};
@@ -1687,7 +1677,6 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
-				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = "Release (10.8) Symbols";
@@ -1703,7 +1692,6 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (AppStore)";
 		};
@@ -1712,7 +1700,7 @@
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
+<<<<<<< HEAD
 			};
 			name = "Release (AppStore)";
 		};
@@ -1721,7 +1709,6 @@
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				SDKROOT = macosx;
 			};
 			name = "Release (AppStore)";
 		};
@@ -1729,7 +1716,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx;
 			};
 			name = "Release (AppStore)";
 		};
@@ -1753,8 +1739,9 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
-				SDKROOT = macosx;
 				ZERO_LINK = NO;
+=======
+>>>>>>> refs/heads/sparkle-upstream
 			};
 			name = "Release (AppStore)";
 		};

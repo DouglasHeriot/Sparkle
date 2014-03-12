@@ -27,12 +27,12 @@
 
 + (SUUpdater *)sharedUpdater;
 + (SUUpdater *)updaterForBundle:(NSBundle *)bundle;
-- initForBundle:(NSBundle *)bundle;
+- (id)initForBundle:(NSBundle *)bundle;
 
 - (NSBundle *)hostBundle;
 
 - (void)setDelegate:(id)delegate;
-- delegate;
+- (id)delegate;
 
 - (void)setAutomaticallyChecksForUpdates:(BOOL)automaticallyChecks;
 - (BOOL)automaticallyChecksForUpdates;
@@ -75,6 +75,20 @@
 
 @end
 
+// -----------------------------------------------------------------------------
+// SUUpdater Notifications for events that might be interesting to more than just the delegate
+// The updater will be the notification object
+// -----------------------------------------------------------------------------
+extern NSString *const SUUpdaterDidFinishLoadingAppCastNotification;
+extern NSString *const SUUpdaterDidFindValidUpdateNotification;
+extern NSString *const SUUpdaterDidNotFindUpdateNotification;
+extern NSString *const SUUpdaterWillInstallUpdateNotification;
+extern NSString *const SUUpdaterWillRelaunchApplicationNotification;
+
+// Key for the SUAppcastItem object in the SUUpdaterDidFindValidUpdateNotification & SUUpdaterWillInstallUpdateNotification userInfos
+extern NSString *const SUUpdaterAppcastItemNotificationKey;
+// Key for the SUAppcast object in the SUUpdaterDidFinishLoadingAppCastNotification userInfo
+extern NSString *const SUUpdaterAppcastNotificationKey;
 
 // -----------------------------------------------------------------------------
 //	SUUpdater Delegate:
